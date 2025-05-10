@@ -19,7 +19,14 @@ A responsive weather app built using React, Redux, and Tailwind CSS. It fetches 
 1. Clone the repository:
 ```bash
 git clone https://github.com/bency-fathima/weatherapp.git
+To run frontend:
 cd weather-app
 npm install
 npm run dev
+
+To run backend:
+cd backend
+npm install
+nodemon index.js  || npm start
+
 
